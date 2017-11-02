@@ -1,0 +1,4 @@
+RewriteEngine on
+Options -Indexes
+
+RewriteRule ^([a-zA-Z0-9\-\_\/=]*)$ index.php?request=$1 [QSA]
